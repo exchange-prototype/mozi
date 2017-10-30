@@ -1,0 +1,23 @@
+{
+  "name": "mozi",
+  "version": "1.0.0",
+  "description": "mozi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'waiting'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exchange-prototype/mozi.git"
+  },
+  "author": "sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exchange-prototype/mozi/issues"
+  },
+  "homepage": "https://github.com/exchange-prototype/mozi#readme",
+  "dependencies": {
+    "0x.js": "^0.22.4",
+    "web3": "^1.0.0-beta.24"
+  }
+}
