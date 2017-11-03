@@ -1,4 +1,5 @@
-# mozi
+![logo](https://github.com/exchange-prototype/mozi/blob/master/doc/logo.jpg)
+
 ### [who is mozi](https://en.wikipedia.org/wiki/Mozi)
 Build on 0x protocol.
 
