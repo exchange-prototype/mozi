@@ -228,11 +228,11 @@ EIP50 提出扩展合约 ABI 以支持结构。这将允许社区建立标准的
 [2] Wikipedia: Mt. Gox. https://en.wikipedia.org/wiki/Mt.Gox. Accessed: 2017-02-016.  
 [3] A Timeline: ShapeShift Hacking Incident. https://info.shapeshift.io/blog/2016/04/19/timeline- shapeshift-hacking-incident. Accessed:  2017-02-016.  
 [4] Will Warren. The difference between App Coins and Protocol Tokens. https://medium.com/@willwarren89, 2017.  
-[5] 挂单方 Market. https://mkr.market/. Accessed:  2017-02-01. [6] EtherOpt. https://etheropt.github.io/.  Accessed:  2017-02-01.  
+[5] Maker Market. https://mkr.market/. Accessed:  2017-02-01. [6] EtherOpt. https://etheropt.github.io/.  Accessed:  2017-02-01.  
 [7] Augur. https://augur-dev.firebaseapp.com/.  Accessed:  2017-02-01.  
 [8] Intrinsically Tradable Tokens. https://www.reddit.com/r/ethereum/...  Accessed: 2017-02-01. [9] Euler. https://www.reddit.com/r/ethereum/...  Accessed: 2017-02-01.  
 [10] Galia Benartzi Guy Benartzi, Eyal Hertzog.  Bancor  protocol:  A hierarchical  monetary system  and the foundation of a global decentralized autonomous exchange. 2017.  
-[11] Abraham Othman, David M Pennock, Daniel M Reeves, and Tuomas Sandholm. A practical liquidity-sensitive automated market 挂单方. ACM Transactions on Economics and Computation, 1(3):14, 2013.  
+[11] Abraham Othman, David M Pennock, Daniel M Reeves, and Tuomas Sandholm. A practical liquidity-sensitive automated market maker. ACM Transactions on Economics and Computation, 1(3):14, 2013.  
 [12] RaidEX. http://www.raidex.io/. Accessed:  2017-02-014.  
 [13] Jeff Coleman. State Channels. http://www.jeffcoleman.ca/state-channels/. Accessed: 2017-02-014. [14] Ledger Labs:State Channels Wiki. https://github.com/ledgerlabs/state-channels/wiki.  Accessed:2017-02-014.  
 [15] IDEX, Decentralized Capital. http://www.idex.market/.  Accessed:  2017-02-01. [16] EtherDelta. https://etherdelta.github.io/.  Accessed:  2017-02-01.  
