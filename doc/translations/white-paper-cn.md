@@ -88,8 +88,8 @@ Will Warren, Amir Bandeali
 | 名字  | 数据格式 | 描述 |
 |    ---     |  ---  | ---- |
 | version    | address | 交易所智能合约的地址，当协议改变时，地址也会变 |
-| 挂单方      | address | 生成订单的地址 |
-| 吃单方      | address | 允许填单的地址 |
+| maker      | address | 生成订单的地址 |
+| taker      | address | 允许填单的地址 |
 | tokenA     | address | 代币A的合约地址 |
 | tokenB     | address | 代币B的合约地址 |
 | valueA     | uint256 | 代币A的总额   |
@@ -120,7 +120,7 @@ Will Warren, Amir Bandeali
 | 名字  | 数据格式 | 描述 |
 |    ---     |  ---  | ---- |
 | version      | address | 交易所智能合约的地址，当协议改变时，地址也会变 |
-| 挂单方        | address | 生成订单的地址 |
+| maker        | address | 生成订单的地址 |
 | tokenA       | address | 代币A的合约地址 |
 | tokenB       | address | 代币B的合约地址 |
 | valueA       | uint256 | 代币A的总额   |
@@ -148,7 +148,7 @@ Will Warren, Amir Bandeali
 
 ```
 address publicKey = ecrecover( hash, signature( hash ) );
-    if ( publicKey != 挂单方 ) throw;
+    if ( publicKey != maker ) throw;
 ```
 
 ##### 3.2.2 填单和局部填单
@@ -203,7 +203,7 @@ address publicKey = ecrecover( hash, signature( hash ) );
 
 ### 6. 致谢
 我们要感谢我们的导师，顾问和以太坊社区的许多人非常欢迎和慷慨的知识。 特别是，我们要感谢 Joey Krug、Linda Xie 和 Fred Ehrsam，对这项工作进行审查，编辑和提供反馈。 我们还要感谢我们在硅谷爱心会议上遇到的组织者和社区成员，包括 Joseph Chow、Martin Koppelmann、Rebecca Migirov、Gustav Simonsson、Grant Hummer、Tom Ding和String Labs 等人。
-同时感谢Coefficient Ventures成员Chris Li、Yuanfei Zhu提供的中文版本翻译和校对。
+同时感谢Coefficient Ventures成员Chance Du、Chris Li、Yuanfei Zhu提供的中文版本翻译和校对。
 
 ### 7. 附录
 #### 7.1 ERC20代币
