@@ -202,8 +202,8 @@ address publicKey = ecrecover( hash, signature( hash ) );
 - 分散式更新机制可使改进能够连续，安全地集成到协议中，而不会中断dApps或最终用户。
 
 ### 6. 致谢
-我们要感谢我们的导师，顾问和以太坊社区的许多人非常欢迎和慷慨的知识。 特别是，我们要感谢 Joey Krug、Linda Xie 和 Fred Ehrsam，对这项工作进行审查，编辑和提供反馈。 我们还要感谢我们在硅谷爱心会议上遇到的组织者和社区成员，包括 Joseph Chow、Martin Koppelmann、Rebecca Migirov、Gustav Simonsson、Grant Hummer、Tom Ding和String Labs 等人。
-同时也感谢中文白皮书的贡献者Coefficient Ventures、Chance Du、Chris Li、Jinbin Xie、Yuanfei Zhu、Ming Wang、Samuel Lin等人。
+我们要感谢我们的导师，顾问和以太坊社区的许多人非常欢迎和慷慨的知识。 特别是，我们要感谢 Joey Krug、Linda Xie 和 Fred Ehrsam，对这项工作进行审查，编辑和提供反馈。 我们还要感谢我们在硅谷爱心会议上遇到的组织者和社区成员，包括 Joseph Chow、Martin Koppelmann、Rebecca Migirov、Gustav Simonsson、Grant Hummer、Tom Ding和String Labs等人。
+同时也感谢中文白皮书的贡献者Coefficient Ventures、Chance Du、Chris Li、Jinbin Xie、Yuanfei Zhu、Ming Wang、Samuel Lin、Fang Xueyang、Liu Ji、Zhenshuang Ma等人。
 
 ### 7. 附录
 #### 7.1 ERC20代币
