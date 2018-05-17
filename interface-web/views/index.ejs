@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>BlockTeam</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap-black.css" type="text/css">
+        <script src=https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js></script>
+        <script src=/bootstrap/js/bootstrap.min.js></script>
+        <script src=/bootstrap/js/controll.js></script>
+    </head>
+    <body>
+        <%- include('partials/header.ejs')-%>      
+        <!-- home -->
+        <section id="home">
+            <div class="lvjing">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <h1>BlockTeam</h1>
+                            <p>
+                                BlockTeam团队致力于数字区块领域<br/>
+                                “将掌握的信息兑换成货币”，存储个人的“永久数字ID和形象”<br/>
+                                对“潜在的社会财富分配”不平等提供解决方案
+                            </p>
+                            <img src="" alt="">
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- home -->
+        <!-- Transaction -->
+        <section id="transaction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="" role="button" data-toggle="modal" data-target="#sellModal">
+                        <!-- <img src="/bootstrap/images/sell.png" class="img-responsive" alt="Sell"> -->
+                        <h3>Place an Order</h3>
+                        <!-- <p>卖出coin</p> -->
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="/users/transaction">
+                        <!-- <img src="/bootstrap/images/transaction.png" class="img-responsive" alt="Transaction"> -->
+                        <h3>Transaction</h3>
+                        <!-- <p>查看成交记录</p> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Transaction -->
+        <!-- contact -->
+        <section id="contact">
+            <div class="lvjing">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>
+                                <span class="glyphicon glyphicon-send"></span>
+                                &nbsp;
+                                联系BlockTeam
+                            </h2>
+                            <p>BlockTeam团队致力于数字区块领域,“将掌握的信息兑换成货币”<br/>
+                               存储个人的“永久数字ID和形象”<br/>
+                               对“潜在的社会财富分配”不平等提供解决方案
+                            </p>
+                            <address>
+                                <p>
+                                    <span class="glyphicon glyphicon-home"></span>
+                                    &nbsp;
+                                    地址：澳大利亚悉尼
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-phone-alt"></span>
+                                    &nbsp;
+                                    联系电话：o48l3o2 688
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                    &nbsp;
+                                    电报：http:/t.me/BlockchainOrg
+                                </p>
+                            </address>
+                        </div>
+                        <div class="col-md-6">
+                            <form action="#" method="POST">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="您的姓名">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="您的邮箱">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" placeholder="标题">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control" placeholder="留言内容" rows="4"></textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="submit" class="form-control" value="提交">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <!-- Modal -->
+        <div class="modal fade" id="sellModal" tabindex="-1" role="dialog" aria-labelledby="sellModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="sellModalLabel">Place an Order</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form id="sellform">
+                            <div class="form-group">
+                                <label for="Address">Address</label>
+                                <input type="input" id="Address" name="Address" class="form-control" placeholder="wallet address">
+                            </div>
+                            <div class="form-group">
+                                <label for="Type">Currency</label>
+                                <select class="form-control" name="Currency" id="Currency">
+                                    <option>BTC</option>
+                                    <option>ETH</option>
+                                    <option>EOS</option>
+                                    <option>TRX</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Quantity">QuantityEntered</label>
+                                <input type="input" id="QuantityEntered" name="QuantityEntered" class="form-control" placeholder="Quantity">
+                            </div>
+                            <div class="form-group">
+                                <label for="Type">PartyB</label>
+                                <select class="form-control" name="PartyB" id="PartyB">
+                                    <option>TRX</option>
+                                    <option>EOS</option>
+                                    <option>ETH</option>
+                                    <option>BTC</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="PriceEntered">PriceEntered</label>
+                                <input type="input" id="PriceEntered" name="PriceEntered" class="form-control" placeholder="Quantity">
+                            </div>
+                            <div class="form-group">
+                                <label for="PartyBamount">PartyBamount</label>
+                                <input type="input" id="PartyBamount" name="PartyBamount" class="form-control" placeholder="Quantity">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                    <button id="sellbutton" type="button" class="btn btn-primary">submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sell Modal -->
+        <!-- message model -->
+        <!-- <div class="modal fade" id="messageModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">
+                            操作提示
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <h3 id="messageText">
+
+                        </h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- message model -->
+        <!-- footer -->
+        <%- include('partials/footer.ejs')-%>
+        <!-- footer -->
+    </body>
+</html>
